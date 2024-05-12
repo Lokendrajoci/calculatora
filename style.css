@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calcout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdffcd;
+}
+
+.all-border {
+    border: 2px solid #352f44;
+    border-radius: 10%;
+
+
+}
+
+.calcbox {
+    background-color: #ffe9e3;
+    height: 30rem;
+    width: 30rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: 2%;
+    column-gap: 2%;
+}
+
+.calculator-screen {
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 100%;
+    margin-top: 4vh;
+    border-radius: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+
+}
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+.centretext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calcscreen {
+    height: 80%;
+    width: 100%;
+    grid-column: 2/6;
+
+}
+
+.pointbt {
+    grid-row: 3/4;
+    grid-column: 3/4;
+
+}
+
+.divibt {
+    grid-row: 3/4;
+    grid-column: 4/5;
+
+}
+
+.mulbt {
+    grid-row: 3/4;
+    grid-column: 5/6;
+}
+
+.bt7 {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.bt8 {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.bt9 {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.minbt {
+    grid-row: 4/5;
+    grid-column: 5/6;
+}
+
+.bt4 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.bt5 {
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+
+.bt6 {
+    grid-row: 5/6;
+    grid-column: 4/5;
+}
+
+.plusbt {
+    grid-row: 5/7;
+    grid-column: 5/6;
+}
+
+.bt1 {
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+
+.bt2 {
+    grid-row: 6/7;
+    grid-column: 3/4;
+}
+
+.bt3 {
+    grid-row: 6/7;
+    grid-column: 4/5;
+}
+
+.ac-but{
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+.bt0 {
+    grid-column: 3/5;
+    grid-row: 7/8;
+}
+
+.btequal{
+    grid-column: 5/6;
+    grid-row: 7/8;
+}
